@@ -7,22 +7,40 @@ body {
     overscroll-behavior: none;
     font-size: 75%;
     font-family: sans-serif;
+    background-color: #cccccc;
+    max-width: 100%;
 }
 
 header {
     background-color: #120323;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
-header a img {
-    max-width: 100px;
-    height: auto;
+header img {
+    margin-top: 1rem;
 }
 
 h1 {
     color: #97bf04;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    background-color: #d9043d;
+    border: 1px solid #97bf04;
+    padding: 1rem;
+    margin: 1rem;
     text-align: center;
 }
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
