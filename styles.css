@@ -11,6 +11,8 @@ body {
     max-width: 100%;
 }
 
+/* Header */
+
 header {
     background-color: #120323;
     display: flex;
@@ -26,6 +28,8 @@ h1 {
     color: #97bf04;
 }
 
+/* Navigation */
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -33,9 +37,9 @@ header nav ul {
 
 header nav ul li {
     background-color: #d9043d;
-    border: 1px solid #97bf04;
-    padding: 1rem;
-    margin: 1rem;
+    border: 1.5px solid #97bf04;
+    padding: 0.75rem 0;
+    margin: 0.75rem 2.5%;
     text-align: center;
 }
 
@@ -44,3 +48,34 @@ header nav ul li a {
     text-decoration: none;
 }
 
+h2 {
+    text-align: center;
+}
+
+/* Gallery */
+
+#grid-gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+figure {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 7.5px solid #97bf04;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #d9043d;
+    padding: 1rem;
+}
