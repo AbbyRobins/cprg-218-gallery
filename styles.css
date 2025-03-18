@@ -141,8 +141,7 @@ footer {
     }
     
     div figure {
-        grid-template-rows: 1fr auto;
         height: 100%;
-        margin: 0.75rem;
+        margin: 0.5rem;
     }
 }
